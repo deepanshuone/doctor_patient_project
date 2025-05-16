@@ -27,7 +27,7 @@ A Spring Boot 3 based REST API that allows doctors to register, patients to be a
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/ambermittal/doctor-patient-suggestion-api.git
+git clone https://github.com/deepanshuone/doctor_patient_project.git
 cd doctor-patient-suggestion
 
 # 2. Run using Maven
@@ -72,10 +72,10 @@ All APIs will be listed with request/response examples.
 
 ```json
 {
-  "name": "Dr. Sharma",
+  "name": "Dr. Sham",
   "city": "Delhi",
-  "email": "drsharma@example.com",
-  "phoneNumber": "9876543210",
+  "email": "drsham@example.com",
+  "phoneNumber": "9876543211",
   "speciality": "ORTHOPAEDIC"
 }
 ```
@@ -86,10 +86,10 @@ All APIs will be listed with request/response examples.
 
 ```json
 {
-  "name": "John",
+  "name": "Mohan",
   "city": "Delhi",
-  "email": "john@example.com",
-  "phoneNumber": "9876543211",
+  "email": "mohan@example.com",
+  "phoneNumber": "9876543201",
   "symptom": "ARTHRITIS"
 }
 ```
@@ -103,13 +103,13 @@ All APIs will be listed with request/response examples.
 ```json
 [
   {
-    "id": 1,
-    "name": "Dr. Sharma",
-    "city": "Delhi",
-    "email": "drsharma@example.com",
-    "phoneNumber": "9876543210",
-    "speciality": "ORTHOPAEDIC"
-  }
+        "id": 6,
+        "name": "Dr. Sham",
+        "city": "Delhi",
+        "email": "drsham@example.com",
+        "phoneNumber": "9876543211",
+        "speciality": "ORTHOPAEDIC"
+    }
 ]
 ```
 
